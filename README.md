@@ -29,7 +29,6 @@ Method: PUT
 Description: Update an existing post.
 Authentication: Required
 Request Body:
-json
 Copy code
 {
   "title": "string",
@@ -49,9 +48,13 @@ Authentication
 The API uses token-based authentication.
 Users can obtain an authentication token by logging in with their username and password.
 Authentication tokens are included in the request headers for authenticated endpoints.
+
+
 Pagination
 Pagination is implemented for retrieving a large number of posts.
 The default page size is 10 posts per page.
+
+
 How to Run the Project
 Clone the repository:
 git clone https://github.com/your-username/blogging-platform.git
@@ -65,6 +68,8 @@ python manage.py migrate
 Run the development server:
 python manage.py runserver
 The API will be accessible at http://localhost:8000/.
+
+
 Testing
 Unit tests are provided to validate the functionality of the application.
 Run the tests using the following command:
