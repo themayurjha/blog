@@ -75,3 +75,6 @@ Unit tests are provided to validate the functionality of the application.
 Run the tests using the following command:
 python manage.py test
 
+
+*Note: You need to setup the database locally and add it's configuration to settings.py file
+
